@@ -1,2 +1,18 @@
-# zphiser-phishing-link.
-$apt update $apt upgrade $pkg install git $pkg install php curl openssh -y $git clone https://github.com/htr-tech/zphisher $ls $cd zphiser $bash zphisher.sh
+#nexphisher
+#INSTALL
+
+$apt update
+
+$apt install git -y
+
+$git clone git://github.com/htr-tech/nexphisher.git
+
+#USE
+
+$ls
+
+$bash setup
+
+$bash tmux_setup
+
+$bash nexphisher
